@@ -38,8 +38,8 @@
     font-weight     : bold;
     letter-spacing  : 0.01em;
     padding         : 10px 0px 10px 10px !important;
-    position        : fixed;
-    right           : 50px;
+    float           : right;
+    text-align      : right;
   }
 
   .space {
