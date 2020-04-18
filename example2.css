@@ -146,8 +146,51 @@ opacity: 0.8;
     
 
 
-/* When the screen is less than 600 pixels wide */
-@media screen and (max-width: 600px) {
+/* Tablets */
+@media screen and (max-width: 768px) {
+
+    .header, .navbar {
+        position        : relative;
+        padding         : 8px;
+        width           : 580px;
+        margin          : 0;
+        border-color    : #cccccc;
+        border-width    : 1px;
+        overflow        : hidden;
+      }
+
+      .navbar-brand {
+       padding          : 5px 5px 5px 5px !important;
+      }
+
+    .navbar-toggler, .navbar-toggler-icon {
+        float           : left;
+        width           : 10px;
+        position        : relative;
+        left            : 10px;
+        overflow        : hidden;
+        display         : block;
+        text-align      : left;
+      }
+
+    .space {
+        padding         : 0px;
+        width           : 20px;
+      }
+    
+      .collapse {
+        font-size       : medium;
+        font-weight     : bold;
+        letter-spacing  : 0.01em;
+        padding         : 0px 0px 0px 0px !important;
+        position        : fixed;
+        float           : left;
+      }
+
+  }
+  
+/* Mobile Phones */
+@media screen and (max-width: 420px) {
 
     .header, .navbar {
         padding: 8px;
@@ -184,7 +227,6 @@ opacity: 0.8;
 
   }
   
-
 
 
 
