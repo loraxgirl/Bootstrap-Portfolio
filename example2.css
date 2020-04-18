@@ -1,4 +1,8 @@
- /* Style the header */
+* {
+    box-sizing: border-box;
+  }
+  
+/* Style the header */
  .header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -126,21 +130,20 @@ opacity: 0.8;
   
   /* Style the footer */
   .footer {
-    background-color: #666666;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-    width: 100%;
-    margin: auto;
-    position: fixed;
-    bottom: 0;
-    border-top: 8px solid #4aaaa5;
-    vertical-align: bottom;
+    background-color    : #666666;
+    color               : white;
+    padding             : 10px;
+    text-align          : center;
+    font-size           : 14px;
+    width               : 100%;
+    margin              : auto;
+    position            : fixed;
+    bottom              : 0;
+    left                : 0;
+    border-top          : 8px solid #4aaaa5;
+    vertical-align      : bottom;
   }
     
-
-
 
 
 /* When the screen is less than 600 pixels wide */
@@ -149,9 +152,13 @@ opacity: 0.8;
     .header, .navbar {
         padding: 8px;
         width: 500px;
-        margin: auto;
+        margin: 0;
         border-color: #cccccc;
         border-width: 1px;
+      }
+
+      .navbar-brand {
+       padding         : 5px 5px 5px 5px !important;
       }
 
     .navbar-toggler, .navbar-toggler-icon {
