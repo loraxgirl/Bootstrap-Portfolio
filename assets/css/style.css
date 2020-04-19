@@ -123,7 +123,7 @@ input[type=text], select, textarea {
       height: auto;
     }
 
- /* 
+ 
 @media (min-width: 768px) {
   .navbar-brand.abs
       {
@@ -141,6 +141,10 @@ input[type=text], select, textarea {
         opacity: 0.8;
         }
         
+        .responsive {
+          max-width: 80%;
+          height: auto;
+        }
   }
 
  @media (min-width: 400px) {
